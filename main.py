@@ -84,6 +84,7 @@ class KEG_NotifyOfVC( discord.Client ):
 #.envファイルをロードして環境変数へ反映
 load_dotenv()
 
+keep_alive()
 intents = discord.Intents.default()
 intents.message_content = True
 
