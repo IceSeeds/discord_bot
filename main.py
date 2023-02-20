@@ -1,7 +1,10 @@
 import os
 import unicodedata
 from dotenv import load_dotenv
+from threading import Thread
 import discord
+
+from keep_alive import keep_alive
 
 
 PREFIX                  = "/"
